@@ -2,11 +2,11 @@ let divLogoText = document.getElementById("hoverLogo");
 let hoverServies = document.getElementById("hoverServies");
 let hoverProjects = document.getElementById("hoverProjects");
 let hoverHelp = document.getElementById("hoverHelp");
-let cart1 = document.getElementById("cart1");
+let Projectscart1 = document.getElementById("Projectscart1");
 
-cart1.onclick = function()
+Projectscart1.onclick = function()
 {
-    location.href = "";
+    location.href = "https://selloston.github.io/BackGroundChanging/";
 }
 
 divLogoText.onclick = function()

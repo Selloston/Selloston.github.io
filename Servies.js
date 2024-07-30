@@ -2,12 +2,6 @@ let divLogoText = document.getElementById("hoverLogo");
 let hoverServies = document.getElementById("hoverServies");
 let hoverProjects = document.getElementById("hoverProjects");
 let hoverHelp = document.getElementById("hoverHelp");
-let cart1 = document.getElementById("cart1");
-
-cart1.onclick = function()
-{
-    location.href = "";
-}
 
 divLogoText.onclick = function()
 {

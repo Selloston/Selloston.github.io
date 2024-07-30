@@ -80,6 +80,9 @@ html{
 
 #section3{
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-image: url("photos/peakpx.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,7 +92,7 @@ html{
 
 #section2Servies{
     height: 100vh;
-    background-color: #240046;
+    background-color: #7b2cbf;
     background-attachment: fixed;
 }
 #section1Projects{
@@ -104,7 +107,7 @@ html{
 
 #section2Projects{
     height: 100vh;
-    background-color: #240046;
+    background-color: #7b2cbf;
     background-attachment: fixed;
 }
 #section3Projects{
@@ -180,37 +183,7 @@ html{
     transition: all 0.5s;
 }
 
-#cart2{
-    width: 20rem;
-    height: 31rem;
-    box-shadow: 0 4px 25px rgba(1, 1, 1, 50%);
-    background-color: white;
-    border-radius: 5px;
-    margin-right: 30px;
-    cursor: pointer;
-    transition: all 0.5s;
-}
-
-#cart3{
-    width: 20rem;
-    height: 31rem;
-    box-shadow: 0 4px 25px rgba(1, 1, 1, 50%);
-    background-color: white;
-    border-radius: 5px;
-    margin-right: 30px;
-    cursor: pointer;
-    transition: all 0.5s;
-}
-
 #cart1:hover{
-    transform: scale(1.1);
-}
-
-#cart2:hover{
-    transform: scale(1.1);
-}
-
-#cart3:hover{
     transform: scale(1.1);
 }
 
@@ -233,7 +206,7 @@ html{
 
 #Sellostonimgcontaner{
     width: 100%;
-    height: 70%;
+    height: 69%;
     background-color: white;
     border-bottom: 10px solid #10002b;
     background-color: #c77dff;
@@ -250,16 +223,39 @@ html{
     background-position: center;
 }
 
+#project1img{
+    width: 100%;
+    height: 100%;
+    background-image: url("photos/Capture.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 #infoSellostonimge{
     width: 100%;
-    height: 31%;
+    height: 32%;
     background-color: #7b2cbf;
     border-radius: 0 0 5px 5px;
+}
+
+#infoproject1imge{
+    width: 100%;
+    height: 32%;
+    background-color: #7b2cbf;
+    border-radius: 0 0 5px 5px;
+}
+
+#infoproject1imge p{
+    color: white;
+    font-size: 23px;
+    padding-left: 10px;
 }
 
 #infoSellostonimge p{
     color: white;
     font-size: 23px;
+    padding-left: 10px;
 }
 
 ::-webkit-scrollbar{
@@ -273,4 +269,34 @@ html{
 
 ::-webkit-scrollbar-thumb:hover{
     background-color: #c77dff;
+}
+#section3 h1{
+    font-size: 3rem;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer {
+    background-color: #9d4edd;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    z-index: 3;
+}
+
+#Projectscart1{
+    width: 20rem;
+    height: 31rem;
+    box-shadow: 0 4px 25px rgba(1, 1, 1, 50%);
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#Projectscart1:hover{
+    transform: scale(1.1);
 }
